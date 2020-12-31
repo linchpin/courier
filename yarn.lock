@@ -4733,7 +4733,7 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@~4.17.10:
+lodash@4.17.20, lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.19, lodash@~4.17.10:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -6199,7 +6199,7 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-save-dev@^0.0.1-security:
+save-dev@0.0.1-security:
   version "0.0.1-security"
   resolved "https://registry.yarnpkg.com/save-dev/-/save-dev-0.0.1-security.tgz#5eb7267e25a8709c20ac336f0101c8d35900ca5e"
   integrity sha512-k6knZTDNK8PKKbIqnvxiOveJinuw2LcQjqDoaorZWP9M5AR2EPsnpDeSbeoZZ0pHr5ze1uoaKdK8NBGQrJ34Uw==
@@ -6929,6 +6929,13 @@ through2@3.0.1:
   dependencies:
     readable-stream "2 || 3"
 
+through2@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-4.0.2.tgz#a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764"
+  integrity sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==
+  dependencies:
+    readable-stream "3"
+
 through2@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.2.tgz#99f88931cfc761ec7678b41d5d7336b5b6a07bf4"
@@ -6936,13 +6943,6 @@ through2@^3.0.1:
   dependencies:
     inherits "^2.0.4"
     readable-stream "2 || 3"
-
-through2@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-4.0.2.tgz#a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764"
-  integrity sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==
-  dependencies:
-    readable-stream "3"
 
 through@^2.3.6, through@^2.3.8:
   version "2.3.8"
