@@ -12,7 +12,7 @@ $courier_settings = get_option( 'courier_settings' );
 
 if ( isset( $courier_settings['first_activated_on'] ) ) :
 	$install_date = $courier_settings['first_activated_on'];
-?>
+	?>
 <div class="courier-notice courier-update-notice notice notice-info is-dismissible" data-type="review-notice">
 	<div class="table">
 		<div class="table-cell">
@@ -37,4 +37,5 @@ if ( isset( $courier_settings['first_activated_on'] ) ) :
 		</div>
 	</div>
 </div>
-<?php endif;
+	<?php
+endif;

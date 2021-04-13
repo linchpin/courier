@@ -224,11 +224,12 @@ class Type_List_Table extends WP_List_Table {
 				);
 
 				// Notice Icon
-				$icon = get_term_meta( $type->term_id, '_courier_type_icon', true );
+				$icon       = get_term_meta( $type->term_id, '_courier_type_icon', true );
 				$icon_class = $icon;
 
 				if ( ! empty( $icon ) ) {
-					$icon = sprintf( '<label class="screen-reader-text" for="courier_type_%2$s_icon">%1$s</label><span alt="%1$s" class="courier-type-icon icon-%2$s"></span><pre name="courier_type_%2$s_icon" data-css-class="icon-%2$s" id="courier_type_%2$s_icon" class="courier-notice-type-css-class">icon-%1$s</pre>',
+					$icon = sprintf(
+						'<label class="screen-reader-text" for="courier_type_%2$s_icon">%1$s</label><span alt="%1$s" class="courier-type-icon icon-%2$s"></span><pre name="courier_type_%2$s_icon" data-css-class="icon-%2$s" id="courier_type_%2$s_icon" class="courier-notice-type-css-class">icon-%1$s</pre>',
 						esc_attr( $icon ),
 						esc_attr( $type->slug )
 					);

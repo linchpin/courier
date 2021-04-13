@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="LinchpinPHPCS">
+	<description>Linchpin WordPress Project PHPCS Sniffs</description>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
+	</rule>
+
+	<rule ref="PHPCompatibility"/>
+	<config name="testVersion" value="7.3-"/>
+
+	<arg name="extensions" value="php"/>
+	<arg value="s"/>
+
+	<exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>.github/*</exclude-pattern>
+	<exclude-pattern>.deployment/*</exclude-pattern>
+	<exclude-pattern>/src/Helper/WP_List_Table.php</exclude-pattern>
+</ruleset>
