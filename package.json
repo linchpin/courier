@@ -11,7 +11,7 @@
   "license": "GPL",
   "dependencies": {
     "jquery": "3.5.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "save-dev": "^0.0.1-security",
     "through2": "^4.0.2",
     "what-input": "5.2.10"
