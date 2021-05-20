@@ -195,9 +195,15 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-primary .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-primary + .courier_type-primary {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-primary + .courier_type-primary:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-notices .courier_type-success {
   background: #04A84E;
@@ -208,9 +214,15 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-success .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-success + .courier_type-success {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-success + .courier_type-success:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-notices .courier_type-alert {
   background: #F97600;
@@ -221,9 +233,15 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-alert .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-alert + .courier_type-alert {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-alert + .courier_type-alert:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-notices .courier_type-warning {
   background: #EA3118;
@@ -234,12 +252,18 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-warning .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-warning + .courier_type-warning {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-warning + .courier_type-warning:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-notices .courier_type-feedback {
-  background: #878787;
+  background: #8839D3;
   color: #222; }
   .courier-notices .courier_type-feedback .courier-content-wrapper:after {
     color: #222; }
@@ -247,12 +271,18 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-feedback .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-feedback + .courier_type-feedback {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-feedback + .courier_type-feedback:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-notices .courier_type-info {
-  background: #8839D3;
+  background: #878787;
   color: #222; }
   .courier-notices .courier_type-info .courier-content-wrapper:after {
     color: #222; }
@@ -260,9 +290,15 @@ body.wp-admin table.courier_notice_page_courier [class*="icon-"] {
     color: #222; }
   .courier-notices .courier_type-info .courier-content-wrapper {
     padding-left: 3em; }
-  .courier-notices .courier_type-info + .courier_type-info {
-    border-top: 2px solid rgba(0, 0, 0, 0.05);
-    margin-top: -2px; }
+  .courier-notices .courier_type-info + .courier_type-info:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.075);
+    z-index: 5; }
 
 .courier-location-footer {
   position: fixed;

@@ -21,17 +21,23 @@
 		('success', $notice-default-success, $black, $icon-success, '', ''),
 		('alert', $notice-default-alert, $black, $icon-alert, '', ''),
 		('warning', $notice-default-warning, $black, $icon-warning, '', ''),
-		('feedback', $notice-default-info, $black, $icon-feedback, '', ''),
-		('info', $notice-default-feedback, $black, $icon-info, '', '')
+		('feedback', $notice-default-feedback, $black, $icon-feedback, '', ''),
+		('info', $notice-default-info, $black, $icon-info, '', '')
 	);
 
 	@each $courier in $courier_list {
 		.courier_type-#{nth($courier, 1)} {
 			@include notice( nth($courier, 2), nth( $courier, 3), nth( $courier, 4), nth( $courier, 5) );
 
-			+ .courier_type-#{ nth($courier,1) } {
-				border-top: 2px solid rgba(0,0,0,.05);
-				margin-top: -2px;
+			+ .courier_type-#{ nth($courier,1) }:before {
+				content: '';
+			    position: absolute;
+			    height: 2px;
+			    top: -1px;
+			    left: 0;
+			    right: 0;
+			    background: rgba(0,0,0,.075);
+			    z-index: 5;
 			}
 		}
 	}
