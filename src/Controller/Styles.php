@@ -9,6 +9,7 @@ namespace CourierNotices\Controller;
 
 /**
  * Class Courier_Styles
+ *
  * @package CourierNotices\Controller
  */
 class Styles {

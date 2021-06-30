@@ -79,8 +79,8 @@ class Utils {
 	 * @since 1.1
 	 *
 	 * @param mixed|array|object|string $output
-	 * @param string $label
-	 * @param bool $separator
+	 * @param string                    $label
+	 * @param bool                      $separator
 	 */
 	public static function courier_notices_debug_log( $output, $label = '', $separator = true ) {
 

@@ -70,7 +70,7 @@ class Settings_REST_Controller {
 	 */
 	public function update_settings( \WP_REST_Request $request ) {
 
-		$option_key     = $request->get_param( 'settings_key' ); // get the settings from
+		$option_key = $request->get_param( 'settings_key' ); // get the settings from
 
 		$settings_model = new \CourierNotices\Model\Settings( $option_key );
 

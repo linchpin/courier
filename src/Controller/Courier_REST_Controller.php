@@ -187,7 +187,6 @@ class Courier_REST_Controller extends WP_REST_Controller {
 	 *
 	 * 1. User Specific Notices
 	 * 2. Global Notices
-	 *
 	 */
 	public function display_notices( WP_REST_Request $request ) {
 
@@ -197,7 +196,7 @@ class Courier_REST_Controller extends WP_REST_Controller {
 			'include_dismissed'            => false,
 			'prioritize_persistent_global' => true,
 			'ids_only'                     => false,
-			'number'                       => 4, // @todo this should be a setting.
+			'number'                       => 10, // @todo this should be a setting.
 			'placement'                    => 'header',
 			'query_args'                   => array(),
 		);

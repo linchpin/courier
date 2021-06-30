@@ -47,9 +47,8 @@ let webpackConfig = {
 	devtool: !PRODUCTION && 'source-map',
 	output: {
 		chunkLoading: false,
-		wasmLoading: false,
+		wasmLoading: false
 	}
-
 };
 
 /**
