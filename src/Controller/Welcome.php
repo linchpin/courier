@@ -6,6 +6,7 @@ use CourierNotices\Core\View;
 
 /**
  * Class Welcome
+ *
  * @package CourierNotices\Controller
  */
 class Welcome {
@@ -56,7 +57,6 @@ class Welcome {
 	 * Output our welcome markup for first time users
 	 *
 	 * @since 1.0
-	 *
 	 */
 	public function welcome_message() {
 		$welcome = new View();

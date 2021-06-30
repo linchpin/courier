@@ -83,7 +83,7 @@ if ( empty( $icon_color ) ) {
 		// translators: %1$s Title of the term.
 		sprintf( esc_html__( '%1$s Background Color', 'courier-notices' ), $type->name )
 	);
-?>
+	?>
 
 <div class="notice-options hide">
 	<div class="notice-option" data-notice-option-color="accent">

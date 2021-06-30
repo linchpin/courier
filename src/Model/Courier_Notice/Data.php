@@ -108,6 +108,7 @@ class Data {
 
 	/**
 	 * Get our dismissible global notices
+	 *
 	 * @param array $args           Query Args.
 	 * @param array $ajax_post_data Ajax data passed to manipulate the query.
 	 * @param bool  $ids_only       Whether to return only IDs.
@@ -201,7 +202,7 @@ class Data {
 		$args      = wp_parse_args( $args, $defaults );
 		$cache_key = 'global-persistent-' . sanitize_title( $args['placement'] ) . '-notices';
 		$cache     = wp_cache_get( $cache_key, 'courier-notices' );
-/*
+		/*
 		if ( false !== $cache ) {
 			return wp_list_pluck( $cache, 'ID' );
 

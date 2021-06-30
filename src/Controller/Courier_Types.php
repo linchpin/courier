@@ -8,6 +8,7 @@ use CourierNotices\Helper\Utils;
 
 /**
  * Class Courier_Types
+ *
  * @package CourierNotices\Controller
  */
 class Courier_Types {
@@ -16,10 +17,10 @@ class Courier_Types {
 		'style'  => array(
 			'id' => array(),
 		),
-		'p'         => array(
+		'p'      => array(
 			'class' => array(),
 		),
-		'button'         => array(
+		'button' => array(
 			'class'      => array(),
 			'value'      => array(),
 			'type'       => array(),
@@ -27,28 +28,28 @@ class Courier_Types {
 			'aria-label' => array(),
 			'title'      => array(),
 		),
-		'label'     => array(
+		'label'  => array(
 			'for'   => array(),
 			'class' => array(),
 		),
-		'input'     => array(
+		'input'  => array(
 			'type'  => array(),
 			'value' => array(),
 			'class' => array(),
 			'name'  => array(),
 			'id'    => array(),
 		),
-		'span'            => array(
+		'span'   => array(
 			'aria-hidden' => array(),
 			'class'       => array(),
 			'style'       => array(),
 		),
-		'pre'                => array(
+		'pre'    => array(
 			'class'          => array(),
 			'id'             => array(),
 			'data-css-class' => array(),
 		),
-		'div'                          => array(
+		'div'    => array(
 			'id'                       => array(),
 			'class'                    => array(),
 			'data-courier-notice-id'   => array(),
@@ -56,16 +57,16 @@ class Courier_Types {
 			'data-closable'            => array(),
 			'data-notice-option-color' => array(),
 		),
-		'table'     => array(
+		'table'  => array(
 			'class' => array(),
 		),
 		'thead'  => array(),
-		'tbody'     => array(
+		'tbody'  => array(
 			'id'    => array(),
 			'class' => array(),
 		),
-		'tr'               => array(),
-		'td'               => array(
+		'tr'     => array(),
+		'td'     => array(
 			'data-colname' => array(),
 			'class'        => array(),
 			'scope'        => array(),
