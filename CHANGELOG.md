@@ -1,5 +1,17 @@
 # Changelog #
 
+## 1.4.1 ##
+* Updated all dependencies
+* Removed some unneeded resolutions
+
+## 1.4.0 ##
+* Added - WordPress PHPCS Coding Standards Autofixer
+* Fixed - Adjusted an in_array check to not compare with a string
+* Improved - Allowed buttons within a notice to dismiss and change window location without needed ajax
+* Updated - Adjusted default maximum of notices displayed
+* Updated - Bumped minimum PHP requirement to 7.3
+* Updated - Plugin description, github slugs, and homepage url
+
 ## 1.3.1 ##
 * Fixed a javascript issue impacting other plugins
 * Updated - All javascript dependencies have been updated ot the latest versions

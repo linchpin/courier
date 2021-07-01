@@ -1,72 +1,71 @@
 {
-  "name": "courier-notices",
-  "version": "1.3.1",
-  "description": "A way to display, manage, and control front end notifications for users, globally or individually, in the header,footer, by shortcode or by page.",
-  "main": "gulpfile.babel.js",
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp build:release --production --release"
-  },
-  "author": "Linchpin <sayhi@linchpin.com>",
-  "license": "GPL",
-  "dependencies": {
-    "jquery": "3.5.1",
-    "lodash": "^4.17.20",
-    "save-dev": "^0.0.1-security",
-    "through2": "^4.0.2",
-    "what-input": "5.2.10"
-  },
-  "devDependencies": {
-    "@babel/core": "7.12.10",
-    "@babel/preset-env": "7.12.11",
-    "@babel/register": "7.12.10",
-    "autoprefixer": "10.1.0",
-    "babel-loader": "8.2.2",
-    "browser-sync": "2.26.13",
-    "gulp": "4.0.2",
-    "gulp-babel": "8.0.0",
-    "gulp-bump": "3.2.0",
-    "gulp-clean-css": "4.3.0",
-    "gulp-cli": "2.3.0",
-    "gulp-concat": "2.6.1",
-    "gulp-extname": "0.2.2",
-    "gulp-if": "3.0.0",
-    "gulp-load-plugins": "2.0.6",
-    "gulp-postcss": "9.0.0",
-    "gulp-readme-to-markdown": "0.2.1",
-    "gulp-replace": "1.0.0",
-    "gulp-sass": "4.1.0",
-    "gulp-sourcemaps": "3.0.0",
-    "gulp-uglify": "3.0.2",
-    "js-yaml": "3.14.1",
-    "kind-of": "6.0.3",
-    "rimraf": "3.0.2",
-    "vinyl-named": "1.1.0",
-    "webpack": "5.11.1",
-    "webpack-stream": "6.1.1",
-    "yargs": "16.2.0"
-  },
-  "resolutions": {
-    "lodash": "^4.17.19",
-    "lodash.template": "^4.5.0",
-		"ini": "1.3.6"
-  },
+	"name": "courier-notices",
+	"version": "1.4.1",
+	"description": "A way to display, manage, and control front end notifications for users, globally or individually, in the header,footer, by shortcode or by page.",
+	"main": "gulpfile.babel.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build:release --production --release"
+	},
+	"author": "Linchpin <sayhi@linchpin.com>",
+	"license": "GPL-2.0-or-later",
+	"dependencies": {
+		"jquery": "3.6.0",
+		"lodash": "4.17.21",
+		"node-sass": "^6.0.1",
+		"postcss": "^8.3.5",
+		"save-dev": "0.0.1-security",
+		"through2": "4.0.2",
+		"what-input": "5.2.10"
+	},
+	"devDependencies": {
+		"@babel/core": "7.14.6",
+		"@babel/preset-env": "7.14.7",
+		"@babel/register": "7.14.5",
+		"autoprefixer": "10.2.6",
+		"babel-loader": "8.2.2",
+		"browser-sync": "2.27.4",
+		"gulp": "4.0.2",
+		"gulp-babel": "8.0.0",
+		"gulp-bump": "3.2.0",
+		"gulp-clean-css": "4.3.0",
+		"gulp-cli": "2.3.0",
+		"gulp-concat": "2.6.1",
+		"gulp-extname": "0.2.2",
+		"gulp-if": "3.0.0",
+		"gulp-load-plugins": "2.0.7",
+		"gulp-postcss": "9.0.0",
+		"gulp-readme-to-markdown": "0.2.1",
+		"gulp-replace": "1.1.3",
+		"gulp-sass": "5.0.0",
+		"gulp-sourcemaps": "3.0.0",
+		"gulp-uglify": "3.0.2",
+		"js-yaml": "4.1.0",
+		"kind-of": "6.0.3",
+		"rimraf": "3.0.2",
+		"vinyl-named": "1.1.0",
+		"webpack": "5.41.1",
+		"webpack-stream": "6.1.2",
+		"yargs": "17.0.1"
+	},
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/linchpin/courier-notices.git"
-  },
-  "bugs": {
-    "url": "https://github.com/linchpin/courier-notices/issues",
-    "email": "sayhi@linchpin.com"
-  },
-  "engines": {
-    "node": ">= 10.13.0"
-  },
-  "private": true,
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+		"type": "git",
+		"url": "https://github.com/linchpin/courier-notices.git"
+	},
+	"bugs": {
+		"url": "https://github.com/linchpin/courier-notices/issues",
+		"email": "sayhi@linchpin.com"
+	},
+	"engines": {
+		"node": ">= 14.10.0"
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"not dead"
+	],
+	"output": {
+		"chunkLoading": false,
+		"wasmLoading": false
+	}
 }

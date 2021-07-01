@@ -37,7 +37,7 @@ class Config {
 	 */
 	private function setup_plugin_config() {
 		$config = wp_cache_get( 'config', 'courier-notices' );
-/*
+		/*
 		if ( false !== $config ) {
 			return $config;
 		} */

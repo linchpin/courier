@@ -327,7 +327,6 @@ class Courier {
 				update_post_meta( $post_id, '_courier_show_title', 1 );
 			}
 
-
 			if ( empty( $_POST['courier_placement'] ) ) {
 				wp_set_object_terms( $post_id, null, 'courier_placement' );
 			} else {

@@ -76,7 +76,7 @@ if ( ! function_exists( 'add_action' ) ) {
 
 			$tab_url = apply_filters( "courier_notices_admin_tab_{$tab_slug}_url", $tab_url );
 
-			$active  = ( $active_tab === $tab_slug ) ? ' nav-tab-active' : '';
+			$active = ( $active_tab === $tab_slug ) ? ' nav-tab-active' : '';
 
 			?>
 			<a href="<?php echo esc_url( $tab_url ); ?>" title="<?php echo esc_attr( $tab_item['label'] ); ?>" class="nav-tab <?php echo esc_attr( $active ); ?>">

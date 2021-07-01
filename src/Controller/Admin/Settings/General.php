@@ -50,6 +50,7 @@ class General {
 
 	/**
 	 * General constructor.
+	 *
 	 * @param string $settings
 	 */
 	public function __construct( $settings = 'courier_design' ) {

@@ -7,6 +7,7 @@ namespace CourierNotices\Controller\Integrations;
 
 /**
  * Class WP_SEO
+ *
  * @package CourierNotices\Controller
  */
 class WP_SEO {

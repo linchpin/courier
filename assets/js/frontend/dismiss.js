@@ -61,15 +61,20 @@ export default function dismiss() {
 						$notice.find('.courier-close').trigger('click');
 						hideNotice( notice_id );
 					} );
+
+				if ( href && href !== '#' ) {
+					$(document).ajaxComplete( function ( event, request, settings ) {
+						window.location = href;
+					} );
+				}
+
 			} else {
 				$notice.find('.courier-close').trigger('click');
 				hideNotice( notice_id );
-			}
 
-			if ( href && href !== '#' ) {
-				$(document).ajaxComplete( function ( event, request, settings ) {
+				if ( href && href !== '#' ) {
 					window.location = href;
-				} );
+				}
 			}
 		}
 	}
